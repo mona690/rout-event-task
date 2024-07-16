@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h1 {
+    color: #2c3e50; 
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Lighter row for better contrast */
+}
+
+.table-row {
+    cursor: pointer; 
+}
+
+.table-row:hover {
+    background-color: #e0e0e0;  /* Change hover color for better visibility */
+}
+
+canvas {
+    border: 4px solid #ddd; 
+    border-radius: 10px;  
+    background-color: white; /* Make graph background white */
+}
